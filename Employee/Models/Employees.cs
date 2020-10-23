@@ -19,7 +19,8 @@ namespace Employee.Models
         public string FullName { get; set; }
 
         [Column(TypeName = "varchar(10)")]
-        [DisplayName("Emp. Code")]        public string EmpCode { get; set; }
+        [DisplayName("Emp. Code")]
+        public string EmpCode { get; set; }
 
         [Column(TypeName = "varchar(100)")]
         public string Position { get; set; }
